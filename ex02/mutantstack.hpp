@@ -22,10 +22,7 @@ class MutantStack : public std::stack<T> {
     typedef typename std::stack<T>::container_type::reverse_iterator reverse_iterator;
 
     iterator begin(void) { return std::stack<T>::c.begin(); }
-    reverse_iterator rbegin(void) { return std::stack<T>::c.rbegin(); }
-
     iterator end(void) { return std::stack<T>::c.end(); }
-    reverse_iterator rend(void) { return std::stack<T>::c.rend(); }
 };
 
 #endif

@@ -2,7 +2,7 @@
 
 #include "Span.hpp"
 
-#define SIZE 100
+#define SIZE 10
 
 int randomNumber(void) { return (std::rand() % SIZE); }
 
