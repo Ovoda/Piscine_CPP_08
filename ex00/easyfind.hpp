@@ -6,6 +6,7 @@
 #include <queue>
 #include <set>
 #include <stack>
+#include <algorithm>
 #include <vector>
 
 class NotFound : public std::exception {
